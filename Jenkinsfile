@@ -5,7 +5,7 @@ pipeline {
             steps {
                 checkout([$class: 'GitSCM', 
                           branches: [[name: 'main']], 
-                          userRemoteConfigs: [[url: 'https://github.com/your-username/your-repo.git']]])
+                          userRemoteConfigs: [[url: 'https://github.com/anyijonathan/devops-code-challenge.git']]])
             }
         }
         
